@@ -7,6 +7,7 @@
   "features": {
     "ghcr.io/devcontainers/features/docker-in-docker:2": {}
   },
+  "postCreateCommand": "./.devcontainer/setup && ./scripts/setup",
   "forwardPorts": [
     "22111",
     "22112"
